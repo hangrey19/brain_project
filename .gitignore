@@ -1,0 +1,14 @@
+# Bỏ qua dữ liệu nặng và dataset
+data/
+*.zip
+*.tif
+
+# Bỏ qua weights/models nặng
+models/
+*.h5
+*.keras
+
+# Bỏ qua thư mục rác của Python & Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.env
